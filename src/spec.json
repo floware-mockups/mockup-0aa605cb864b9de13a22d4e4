@@ -1,0 +1,238 @@
+{
+  "title": "Monitoraggio delle verifiche PNRR",
+  "description": "Prototipo per pianificare e monitorare la verifica delle rendicontazioni di piccole e medie opere comunali. Il cronoprogramma organizza scadenze, avanzamento ed esiti; il nome del sistema di rendicontazione è sostituito con un riferimento inventato.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Quadro verifiche",
+      "description": "Riepilogo del cronoprogramma e accesso alle pratiche da verificare.",
+      "metrics": [
+        {
+          "label": "Opere in programma",
+          "value": "24"
+        },
+        {
+          "label": "Verifiche completate",
+          "value": "9"
+        },
+        {
+          "label": "In corso",
+          "value": "8"
+        },
+        {
+          "label": "Scadenze nei prossimi 7 giorni",
+          "value": "5"
+        }
+      ],
+      "columns": [
+        "Comune",
+        "Opera",
+        "Misura",
+        "Scadenza verifica",
+        "Stato",
+        "Esito"
+      ],
+      "rows": [
+        [
+          "Comune di Lumo",
+          "Adeguamento scuola comunale",
+          "Piccole opere",
+          "2026-04-18",
+          "In corso",
+          "Da definire"
+        ],
+        [
+          "Comune di Vela",
+          "Messa in sicurezza viabilità",
+          "Medie opere",
+          "2026-04-20",
+          "Da avviare",
+          "Da definire"
+        ],
+        [
+          "Comune di Nubi",
+          "Efficientamento edificio civico",
+          "Piccole opere",
+          "2026-04-22",
+          "Completata",
+          "Regolare"
+        ],
+        [
+          "Comune di Brina",
+          "Intervento rete di drenaggio",
+          "Medie opere",
+          "2026-04-24",
+          "In corso",
+          "Integrazione richiesta"
+        ],
+        [
+          "Comune di Riva",
+          "Riqualificazione illuminazione",
+          "Piccole opere",
+          "2026-04-27",
+          "Da avviare",
+          "Da definire"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "cronoprogramma",
+      "title": "Cronoprogramma",
+      "description": "Pianifica le verifiche e aggiorna lo stato di avanzamento delle opere rendicontate.",
+      "metrics": [],
+      "columns": [
+        "Comune",
+        "Opera",
+        "Misura",
+        "Data prevista",
+        "Scadenza verifica",
+        "Responsabile ufficio",
+        "Stato",
+        "Esito"
+      ],
+      "rows": [
+        [
+          "Comune di Lumo",
+          "Adeguamento scuola comunale",
+          "Piccole opere",
+          "2026-04-12",
+          "2026-04-18",
+          "Unità Aurora",
+          "In corso",
+          "Da definire"
+        ],
+        [
+          "Comune di Vela",
+          "Messa in sicurezza viabilità",
+          "Medie opere",
+          "2026-04-15",
+          "2026-04-20",
+          "Unità Cedro",
+          "Da avviare",
+          "Da definire"
+        ],
+        [
+          "Comune di Nubi",
+          "Efficientamento edificio civico",
+          "Piccole opere",
+          "2026-04-14",
+          "2026-04-22",
+          "Unità Aurora",
+          "Completata",
+          "Regolare"
+        ],
+        [
+          "Comune di Brina",
+          "Intervento rete di drenaggio",
+          "Medie opere",
+          "2026-04-16",
+          "2026-04-24",
+          "Unità Salice",
+          "In corso",
+          "Integrazione richiesta"
+        ],
+        [
+          "Comune di Riva",
+          "Riqualificazione illuminazione",
+          "Piccole opere",
+          "2026-04-19",
+          "2026-04-27",
+          "Unità Cedro",
+          "Da avviare",
+          "Da definire"
+        ],
+        [
+          "Comune di Quarzo",
+          "Sistemazione percorso pedonale",
+          "Medie opere",
+          "2026-04-21",
+          "2026-04-29",
+          "Unità Salice",
+          "In attesa documenti",
+          "Integrazione richiesta"
+        ]
+      ],
+      "form": [
+        "Comune",
+        "Opera",
+        "Misura",
+        "Data prevista",
+        "Scadenza verifica",
+        "Responsabile ufficio",
+        "Stato",
+        "Esito"
+      ]
+    },
+    {
+      "id": "verifiche",
+      "title": "Registro verifiche",
+      "description": "Consulta e filtra le verifiche effettuate, con esito e indicazione delle integrazioni eventualmente richieste.",
+      "metrics": [
+        {
+          "label": "Esiti regolari",
+          "value": "6"
+        },
+        {
+          "label": "Integrazioni richieste",
+          "value": "3"
+        }
+      ],
+      "columns": [
+        "Comune",
+        "Opera",
+        "Misura",
+        "Data verifica",
+        "Responsabile ufficio",
+        "Esito"
+      ],
+      "rows": [
+        [
+          "Comune di Nubi",
+          "Efficientamento edificio civico",
+          "Piccole opere",
+          "2026-04-14",
+          "Unità Aurora",
+          "Regolare"
+        ],
+        [
+          "Comune di Brina",
+          "Intervento rete di drenaggio",
+          "Medie opere",
+          "2026-04-16",
+          "Unità Salice",
+          "Integrazione richiesta"
+        ],
+        [
+          "Comune di Lumo",
+          "Ripristino tratto stradale",
+          "Piccole opere",
+          "2026-04-10",
+          "Unità Cedro",
+          "Regolare"
+        ],
+        [
+          "Comune di Vela",
+          "Adeguamento palestra civica",
+          "Medie opere",
+          "2026-04-09",
+          "Unità Aurora",
+          "Integrazione richiesta"
+        ]
+      ],
+      "form": [
+        "Comune",
+        "Opera",
+        "Misura",
+        "Data verifica",
+        "Responsabile ufficio",
+        "Esito"
+      ]
+    }
+  ],
+  "theme": {
+    "palette": "blu-istituzionale",
+    "fonts": "istituzionale"
+  }
+}
