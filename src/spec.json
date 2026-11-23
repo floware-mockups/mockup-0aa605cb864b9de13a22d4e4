@@ -229,10 +229,128 @@
         "Responsabile ufficio",
         "Esito"
       ]
+    },
+    {
+      "id": "rendicontazioni",
+      "title": "Rendicontazioni",
+      "description": "Registra gli importi rendicontati per le opere comunali e monitora lo stato delle verifiche.",
+      "metrics": [
+        {
+          "label": "Rendicontazioni registrate",
+          "value": "7"
+        },
+        {
+          "label": "In verifica",
+          "value": "2"
+        },
+        {
+          "label": "Verificate",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Comune",
+        "Opera",
+        "Data rendicontazione",
+        "Importo rendicontato",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Comune di Lumo",
+          "Adeguamento scuola comunale",
+          "2026-04-12",
+          "184000",
+          "In verifica"
+        ],
+        [
+          "Comune di Vela",
+          "Messa in sicurezza viabilità",
+          "2026-04-15",
+          "236500",
+          "Da avviare"
+        ],
+        [
+          "Comune di Nubi",
+          "Efficientamento edificio civico",
+          "2026-04-14",
+          "97500",
+          "Verificata"
+        ],
+        [
+          "Comune di Brina",
+          "Intervento rete di drenaggio",
+          "2026-04-16",
+          "312000",
+          "Integrazione richiesta"
+        ],
+        [
+          "Comune di Riva",
+          "Riqualificazione illuminazione",
+          "2026-04-19",
+          "128000",
+          "Da avviare"
+        ],
+        [
+          "Comune di Quarzo",
+          "Sistemazione percorso pedonale",
+          "2026-04-21",
+          "163800",
+          "In verifica"
+        ],
+        [
+          "Comune di Selva",
+          "Rifacimento copertura palestra",
+          "2026-04-23",
+          "205000",
+          "Verificata"
+        ]
+      ],
+      "form": [
+        "Comune",
+        "Opera",
+        "Data rendicontazione",
+        "Importo rendicontato",
+        "Stato"
+      ]
     }
   ],
   "theme": {
     "palette": "blu-istituzionale",
     "fonts": "istituzionale"
-  }
+  },
+  "custom": [
+    {
+      "name": "ComuneQuadro",
+      "title": "Comune evidenziato",
+      "description": "Evidenzia solo il testo della colonna Comune.",
+      "role": "cell",
+      "pageId": "dashboard",
+      "column": "Comune"
+    },
+    {
+      "name": "ComuneCronoprogramma",
+      "title": "Comune evidenziato",
+      "description": "Evidenzia solo il testo della colonna Comune.",
+      "role": "cell",
+      "pageId": "cronoprogramma",
+      "column": "Comune"
+    },
+    {
+      "name": "ComuneRegistro",
+      "title": "Comune evidenziato",
+      "description": "Evidenzia solo il testo della colonna Comune.",
+      "role": "cell",
+      "pageId": "verifiche",
+      "column": "Comune"
+    },
+    {
+      "name": "ComuneRendicontazioni",
+      "title": "Comune evidenziato",
+      "description": "Evidenzia solo il testo della colonna Comune.",
+      "role": "cell",
+      "pageId": "rendicontazioni",
+      "column": "Comune"
+    }
+  ]
 }
